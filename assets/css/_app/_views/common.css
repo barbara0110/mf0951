@@ -42,6 +42,21 @@
     font-size: small;
 }
 
+.image-before:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-origin: border-box;
+
+}
+
 /* Marca de agua */
 
 .agua:before {
@@ -60,6 +75,42 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+header.portada {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    
+}
+
+.portada:before {
+    opacity: 1;
+    -webkit-filter: brightness(1) blur(2px) grayscale(0.5);
+    filter: brightness(1) blur(2px) grayscale(0.4);
+
+}
+
+.portada.textos:before {
+    background-image: var(--img_css_textos);
+
+}
+
+.portada.imagenes:before {
+    background-image: url("../../../img/imagenes.jpg");
+
+}
+
+header.portada h2 {
+    position: absolute;
+    margin: 0;
+    padding: 1em;
+    width: 100%;
+    background: rgba(185, 106, 151, 0.3);
+    top:30%;
+    text-align: center;
+    color: white;
+}
+
 
 
 body {

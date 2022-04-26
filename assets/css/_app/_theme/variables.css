@@ -41,9 +41,9 @@
     ------------------------------------
 
     */
-    --color-b: #ADB866;
-    --color-t1: #f4c300;
-    --color-t2: #0085c7;
+    --color-b: #B96A97;
+    --color-t1: #E2B7D0;
+    --color-t2: #69B969;
     /* bootstrap Colors */
     --color-primary: #007bff;
     --color-secondary: #6c757d;
@@ -86,4 +86,15 @@
     --xxl: 90rem;
     /* 1600px */
     --xxxl: 100rem;
+
+
+              /* IMÁGENES DEL SITIO */
+
+    /* Categoría CSS Páginas textos */
+
+    --img_css_textos: url("../../../img/textos.jpg");
+
+
+
+
 }
