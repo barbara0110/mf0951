@@ -82,44 +82,19 @@ section.sociales ul li {
     display: inline-block;
 }
 
-.facebook {
-    background-image: url("../../../svg/social/icon-facebook.svg");
+.social {
     margin: 0;
-    width: 16px;
-    height: 16px;
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+
 }
 
-.instagram {
-    background-image: url("../../../svg/social/icon-instagram.svg");
-    margin: 0;
-    width: 16px;
-    height: 16px;
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.linkedin {
-    background-image: url("../../../svg/social/icon-linkedin.svg");
-    margin: 0;
-    width: 16px;
-    height: 16px;
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-}
-
+/* Propiedad FILL para cambiar el color de un SVG, color no funciona */ 
 .social svg {
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
     fill: white;
 }
+
+    /* ESTO DE MOMENTO NO FUNCIONA */ 
 
 pruebita:hover {
     -webkit-animation-duration: calc(1s * 0.75);
