@@ -76,6 +76,69 @@
     background-repeat: no-repeat;
 }
 
+/* Estilos iconos redes sociales */
+
+section.sociales ul li {
+    display: inline-block;
+}
+
+.facebook {
+    background-image: url("../../../svg/social/icon-facebook.svg");
+    margin: 0;
+    width: 16px;
+    height: 16px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.instagram {
+    background-image: url("../../../svg/social/icon-instagram.svg");
+    margin: 0;
+    width: 16px;
+    height: 16px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.linkedin {
+    background-image: url("../../../svg/social/icon-linkedin.svg");
+    margin: 0;
+    width: 16px;
+    height: 16px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.social svg {
+    width: 16px;
+    height: 16px;
+    fill: white;
+}
+
+pruebita:hover {
+    -webkit-animation-duration: calc(1s * 0.75);
+    animation-duration: calc(1s * 0.75);
+    -webkit-animation-duration: calc(var(--animate-duration) * 0.75);
+    animation-duration: calc(var(--animate-duration) * 0.75);
+    -webkit-animation-name: bounceIn;
+    animation-name: bounceIn;
+
+}
+
+article.animaciones ul li {
+    display: inline-block;
+    margin: 0 0.5rem;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgba(105, 185, 105, 1);
+}
+
 header.portada {
     position: relative;
     width: 100%;
