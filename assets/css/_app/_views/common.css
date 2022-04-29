@@ -81,12 +81,16 @@
 ul.sociales li,
 section.sociales ul li {
     display: inline-block;
+    margin: 0.25em;
+    padding: 0;
 }
 
 ul.sociales li a {
-    width: 2em;
-    height: 2em;
+    width: 3em;
+    height: 3em;
     display: block;
+    padding: 0.25em;
+    border-radius: 5px;
 }
 
 .social {
@@ -94,41 +98,88 @@ ul.sociales li a {
 
 }
 
-/* Propiedad FILL para cambiar el color de un SVG, color no funciona */ 
-
 ul.sociales figure.social svg {
     width: 100%;
     height: 100%;
+    fill: white;
     
 }
 
-figure.facebook svg {
-    fill: #3b5998;
-}
 
-/* Intercambiamos el color de fondo y frente */
 
-figure.facebook:hover svg {
+/*  Frontal y hover facebook */ 
+
+ul.sociales li.facebook a {
     background-color: #3b5998;
-    fill: white;
+
 }
 
-figure.twitter svg {
-    fill: #00acee;
+
+ul.sociales li.facebook a:hover svg  {
+    fill: #3b5998;
+
 }
 
-figure.twitter:hover svg {
+/*  Frontal y hover twitter */ 
+
+ul.sociales li.twitter a {
     background-color: #00acee;
-    fill: white;
+
 }
 
-figure.pinterest svg {
-    fill: #bd081C;
+ul.sociales li.twitter a:hover svg {
+   fill: #00acee;
 }
 
-figure.pinterest:hover svg {
+/*  Frontal y hover twitter */ 
+
+ul.sociales li.pinterest a {
     background-color: #bd081C;
-    fill: white;
+
+}
+
+ul.sociales li.pinterest a:hover svg {
+   fill: #bd081C;
+}
+
+/*  Frontal y hover Linkedin */ 
+
+ul.sociales li.linkedin a {
+    background-color: #0077b5;
+
+}
+
+ul.sociales li.linkedin a:hover svg {
+   fill: #0077b5;
+}
+
+
+/*  Frontal y hover GitHub */ 
+
+ul.sociales li.github a {
+    background-color: #000000;
+
+}
+
+ul.sociales li.github a:hover svg {
+   fill: #000000;
+}
+
+/*  Frontal y hover Google+ */ 
+
+ul.sociales li.google a {
+    background-color: #d34836;
+
+}
+
+ul.sociales li.google a:hover svg {
+   fill: #d34836;
+}
+
+/* Para todos */ 
+
+ul.sociales li a:hover {
+    background-color: transparent;
 }
 
 
