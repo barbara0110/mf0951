@@ -78,8 +78,15 @@
 
 /* Estilos iconos redes sociales */
 
+ul.sociales li,
 section.sociales ul li {
     display: inline-block;
+}
+
+ul.sociales li a {
+    width: 2em;
+    height: 2em;
+    display: block;
 }
 
 .social {
@@ -88,11 +95,57 @@ section.sociales ul li {
 }
 
 /* Propiedad FILL para cambiar el color de un SVG, color no funciona */ 
-.social svg {
-    width: 1.8em;
-    height: 1.8em;
+
+ul.sociales figure.social svg {
+    width: 100%;
+    height: 100%;
+    
+}
+
+figure.facebook svg {
+    fill: #3b5998;
+}
+
+/* Intercambiamos el color de fondo y frente */
+
+figure.facebook:hover svg {
+    background-color: #3b5998;
     fill: white;
 }
+
+figure.twitter svg {
+    fill: #00acee;
+}
+
+figure.twitter:hover svg {
+    background-color: #00acee;
+    fill: white;
+}
+
+figure.pinterest svg {
+    fill: #bd081C;
+}
+
+figure.pinterest:hover svg {
+    background-color: #bd081C;
+    fill: white;
+}
+
+
+
+/* Iconos del footer, por separado para que no afecte a los de arriba */
+
+footer .social svg {
+    fill: white;
+
+}
+
+section.sociales figure.social svg {
+    width: 2em;
+    height: 2em;
+}
+
+
 
     /* ESTO DE MOMENTO NO FUNCIONA */ 
 
