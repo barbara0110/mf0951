@@ -277,13 +277,13 @@ body main article h2 {
     background-color: black; color: white; 
 }
 
-body.nieve a {
+main.nieve a {
     color: yellow;
 }
 
-body.nieve a:hover,
-body.nieve a:focus,
-body.nieve a:target { 
+main.nieve a:hover,
+main.nieve a:focus,
+main.nieve a:target { 
     color:white; border-bottom: 1px solid white;
 }
 
