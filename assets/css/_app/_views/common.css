@@ -271,7 +271,11 @@ body main article h2 {
     font-size:14px;text-align:center;width:100px; height: 40px;
 }
 
-/* Efecto nieve con fondo blanco */
+/* Efecto nieve con fondo negro */
+
+body.nieve {
+    background-color: #000000;
+}
 
 .nieve { 
     background-color: black; color: white; 
