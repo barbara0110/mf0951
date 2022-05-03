@@ -147,9 +147,9 @@ a {
     */
 
     /* Categoría CSS, Página textos */
-    --img_cat1_img1: url('../img/css_textos_1280x856.jpg');
+    --img_cat1_img1: url('../img/textos.jpg');
 
-    --img_cat1_img2: url('../img/css_imagenes_1280x847.jpg');
+    --img_cat1_img2: url('../img/imagenes.jpg');
 }
 
 /*
@@ -162,10 +162,8 @@ a {
 
 
 /*
-    Las reglas agrupadas en esta categoria se aplican a
-    todo el proyecto como identidad corporativa.
-    Es la capa visual.
-*/
+    Las reglas agrupadas en esta categoria se aplican a todo el proyecto
+    Es la capa visual.*/
 
 /* ----------- MAQUETACIÓN ----------- */
 html, body, main {
@@ -373,12 +371,12 @@ body>nav ul.principal li ul li {
 }
 
 
-/* Todos los ítems */
+/* all de ítems*/
 body>nav ul.principal li {
     transition: all 0.5s ease-out;
 }
 
-/* Todos los enlaces */
+/* all los enlaces */
 body>nav ul.principal li a {
     display: block;
     width: 100%;
