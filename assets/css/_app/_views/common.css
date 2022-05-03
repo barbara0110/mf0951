@@ -233,12 +233,12 @@ header.portada {
 }
 
 .portada.textos:before {
-    background-image: var(--img_css_textos);
+    background-image: var(-img_css_textos);
 
 }
 
 .portada.imagenes:before {
-    background-image: url("../../../img/imagenes.jpg");
+    background-image: url("../img/imagenes.jpg");
 
 }
 
