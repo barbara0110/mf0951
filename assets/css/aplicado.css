@@ -1101,21 +1101,21 @@ header.portada h2 {
     color: white;
 }
 
-body.nocturno {
+body.nieve {
     background-color: black;
 }
-main.nocturno {
+main.nieve {
     background-color: black;
     color: white;
 }
 
-main.nocturno a {
+main.nieve a {
     color: yellow;
 }
 
-main.nocturno a:target,
-main.nocturno a:focus,
-main.nocturno a:hover {
+main.nieve a:target,
+main.nieve a:focus,
+main.nieve a:hover {
     color: white;
     border-bottom: 1px solid white;
 }
