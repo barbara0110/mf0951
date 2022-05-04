@@ -233,7 +233,7 @@ header.portada {
 }
 
 .portada.textos:before {
-    background-image: var(-img_css_textos);
+    background-image:var(-img_css_textos);
 
 }
 
