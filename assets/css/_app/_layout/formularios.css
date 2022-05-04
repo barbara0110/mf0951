@@ -48,9 +48,41 @@ form.form textarea:focus {
     background-color: lightyellow;
 }
 
+form.form input::-webkit-input-placeholder, form.form textarea::-webkit-input-placeholder {
+    color: lightgrey;
+}
+
+form.form input::-moz-placeholder, form.form textarea::-moz-placeholder {
+    color: lightgrey;
+}
+
+form.form input:-ms-input-placeholder, form.form textarea:-ms-input-placeholder {
+    color: lightgrey;
+}
+
+form.form input::-ms-input-placeholder, form.form textarea::-ms-input-placeholder {
+    color: lightgrey;
+}
+
 form.form input::placeholder,
 form.form textarea::placeholder {
     color: lightgrey;
+}
+
+form.form input:focus::-webkit-input-placeholder, form.form textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+form.form input:focus::-moz-placeholder, form.form textarea:focus::-moz-placeholder {
+    color: transparent;
+}
+
+form.form input:focus:-ms-input-placeholder, form.form textarea:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+form.form input:focus::-ms-input-placeholder, form.form textarea:focus::-ms-input-placeholder {
+    color: transparent;
 }
 
 form.form input:focus::placeholder,
